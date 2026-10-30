@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	background: #221722;
+}
+
+.boxen {
+	display: flex;
+	gap: 10px;
+	padding: 10px;
+	flex-wrap: wrap;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+}
+.box:hover {
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+
+
+
+.rood { background: red; }
+.geel { background: yellow; }
+.groen { background: green; }
+.blauw { background: blue; }
+.oranje { background: orange; }
+.donker-groen { background: #0e300e; }
+.rood { background: red; }
+.geel { background: yellow; }
+.groen { background: green; }
+.blauw { background: blue; }
+.oranje { background: orange; }
+.donker-groen { background: #0e300e; }
+.rood { background: red; }
+.geel { background: yellow; }
+.groen { background: green; }
+.blauw { background: blue; }
+.oranje { background: orange; }
+.donker-groen { background: #0e300e; }
+.rood { background: red; }
+.geel { background: yellow; }
+.groen { background: green; }
+.blauw { background: blue; }
+.oranje { background: orange; }
+.donker-groen { background: #0e300e; }
+.rood { background: red; }
+.geel { background: yellow; }
+.groen { background: green; }
+.blauw { background: blue; }
+.oranje { background: orange; }
+.donker-groen { background: #0e300e; }
+.rood { background: red; }
+.geel { background: yellow; }
+.groen { background: green; }
+.blauw { background: blue; }
+.oranje { background: orange; }
+.donker-groen { background: #0e300e; }
+.rood { background: red; }
+.geel { background: yellow; }
+.groen { background: green; }
+.blauw { background: blue; }
+.oranje { background: orange; }
+.donker-groen { background: #0e300e; }
+.rood { background: red; }
+.geel { background: yellow; }
+.groen { background: green; }
+.blauw { background: blue; }
+.oranje { background: orange; }
+.donker-groen { background: #0e300e; }
+.rood { background: red; }
+.geel { background: yellow; }
+.groen { background: green; }
+.blauw { background: blue; }
+.oranje { background: orange; }
+.donker-groen { background: #0e300e; }
+.rood { background: red; }
+.geel { background: yellow; }
+.groen { background: green; }
+.blauw { background: blue; }
+.oranje { background: orange; }
+.donker-groen { background: #0e300e; }
+.rood { background: red; }
+.geel { background: yellow; }
+.groen { background: green; }
+.blauw { background: blue; }
+.oranje { background: orange; }
+.donker-groen { background: #0e300e; }
+.rood { background: red; }
+.geel { background: yellow; }
+.groen { background: green; }
+.blauw { background: blue; }
+.oranje { background: orange; }
+.donker-groen { background: #0e300e; }
+.rood { background: red; }
+.geel { background: yellow; }
+.groen { background: green; }
+.blauw { background: blue; }
+.oranje { background: orange; }
+.donker-groen { background: #0e300e; }
+.rood { background: red; }

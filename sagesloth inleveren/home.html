@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/home.css">
+    <title>Home - SageSloth</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+ <header class="header">
+        <h1>SageSloth</h1>
+        <nav class="nav">
+            <a>Home</a>
+            <a class="home-link">Practice</a>
+            <a>About</a>
+            <a>Contact</a>
+            <a class="login">Player login</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <div class="hero-mains">
+            <div id="hero-save">
+                <div id="hero-save-circle"></div>
+                <p id="hero-save-text">SAVE POINT AVAILABLE</p>
+            </div>
+            <h1>Pause the game.</h1>
+            <h1>Keep your calm.</h1>
+            <p>Tiny mindfulness quests for gamers who want steadier focus, softer tilt, and better breaks-- without leaving the party.</p>
+            <div class="hero-buttons">
+                <div id="green-hero-button">Start a 3 minute reset</div>
+                <div id="black-hero-button">Browse quests</div>
+            </div>
+        </div>
+        <div class="hero-mains" id="hero-image">
+            <img src="img/Sloth mascot.png" alt="AI generated sloth at a desk">
+            <div id="image-calm">CALM +12</div>
+        </div>
+    </div>
+    <div class="reset-modes">
+        <div id="reset-modes-top">
+            <h5>CHOOSE YOUR RESET</h5>
+            <h1>Three ways back to baseline</h1>
+            <p>No streaks. No guilt. Just a useful pause between rounds.</p>
+        </div>
+        <div class="reset-modes-options">
+            <div class="rM-option">
+                <div class="rM-option-image-time">
+                    <div id="RMOIT-heart">
+                        <img src="img/Icon3.png" alt="heart">
+                    </div>
+                    <h5>03 min</h5>
+                </div>
+                <p>Respawn Breath</p>
+                <h3>A boxed-breathing checkpoint for shaky hands and racing thoughts.</h3>
+                <h4 id="reset-modes-heart-start">START QUEST</h4>
+            </div>
+            <div class="rM-option">
+                                <div class="rM-option-image-time">
+                    <div id="RMOIT-plus">
+                        <img src="img/Icon2.png" alt="plus">
+                    </div>
+                    <h5>05 min</h5>
+                </div>
+                <p>Hands off hud</p>
+                <h3>Reset your grip reset your posture and give your eyes a softer target.</h3>
+                <h4 id="reset-modes-plus-start">START QUEST</h4>
+            </div>
+            <div class="rM-option">
+                                <div class="rM-option-image-time">
+                    <div id="RMOIT-tilt">
+                        <img src="img/Icon.png" alt="tilt">
+                    </div>
+                    <h5>07 min</h5>
+                </div>
+                <p>Tilt Cooldown</p>
+                <h3>Name the frustration. lower the volume. and queue again with intention.</h3>
+                <h4 id="reset-modes-tilt-start">START QUEST</h4>
+            </div>
+        </div>
+    </div>
+    <div class="beginner-quest">
+        <div id="quest-main">
+            <div id="quest-breathe-box">
+                <div id="quest-timer">
+                    <h5 id="quest-timer-name">QUEST 01 | RESPAWN BREATH</h5>
+                    <h5> 02:14</h5>
+                </div>
+                <h1>Inhale while the ring grows.</h1>
+                <div id="quest-breathe-circle">
+                    <div></div>
+                </div>
+                <div id="quest-progress">
+                    <div></div>
+                </div>
+            </div>
+            <div id="quest-description">
+                <h6>BEGINNER FRIENDLY</h6>
+                <h1>Mindfulness that speaks gamers.</h1>
+                <p>Clear prompts, visible timers, and zero mystical jargon. Learn one practical skill at a time, then take it straight back into play.</p>
+                <h4>-- AUDIO OPTIONAL   -- KEYBOARD FRIENDLY</h4>
+                <h4>-- NO ACCOUNT NEEDED   -- PAUSE ANYTIME</h4>
+            </div>
+        </div>
+    </div>
+    <div id="player-note-main">
+        <h5 id="player-note-note">PLAYER NOTE</h5>
+        <h1>I used Respawn Breath after a rough ranked loss. Three minutes later I was laughing with my squad instead of rage-queueing.</h1>
+        <h5>—- Mina, support main and recovering button-masher</h5>
+    </div>
+    <div id="invite-main">
+        <h1>A calmer quest log, once a week.</h1>
+        <p>One tiny reset, one player story, no spam.</p>
+        <form  id="invite-div">
+            <input id="invite-field "type="text" placeholder="you@paryts.chat" size="90" height="12">
+            <input id="invite-button" type="button" value="Join the party">
+        </form>
+    </div>
+    <footer>
+        <div>
+            <h2>SageSloth</h2>
+            <h5>Mindful resets for people who play.</h5>
+        </div>
+        <div>
+            <div id="footer-icons">
+                <img src="img/Practice.png" alt="practice">
+                <img src="img/About.png" alt="about">
+                <img src="img/Contact.png" alt="contact">
+            </div>
+        </div>
+        <div>
+            <h6> 2026 SAGESLOTH.GG</h6>
+        </div>
+    </footer>
+</body>
+</html>

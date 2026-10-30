@@ -1,0 +1,157 @@
+
+body{
+    background-color: black;
+    color: white;
+    margin:0px;
+    font-family: "inter";
+}
+.nav {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+ 
+.home-link {
+    color: #229a70;
+}
+ 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 0;
+}
+ 
+.header-buttons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#player-login-header{
+    background-color: #192B24;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 12px;
+}
+a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+#current-header{
+    color: #70D6B2;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 150px;
+}
+.hero-mains{
+    width: 40%;
+}
+#hero-save{
+    color: #70D6B2;
+    background-color: #192B24;
+    border: #70D6B2 solid 1px;
+    border-radius: 50px;
+    padding-left:2%;
+    height: 10%;
+    width: 60%;
+    display: flex;
+}
+#hero-save-circle{
+    background-color: #70D6B2;
+    height: 10px;
+    border-radius: 5px;
+    width: 10px;
+    align-self: center;
+    margin-right: 4px;
+}
+#hero-save-text{
+    align-self: center;
+}
+.halfway-links{
+    display:flex;
+    justify-content: center;
+    gap:40px;
+    margin-bottom:128px;
+}
+.halfway-box{
+    height: 80px;
+    width: 20%;
+    color: black;
+    display: flex;
+    border-radius: 16px;
+    align-items: center;
+    padding-left: 16px;
+    gap: 16px;
+}
+.halfway-box p{
+    margin:0px;
+}
+.halfway-box h5{
+    margin: 0px;
+}
+#email-box{
+    background-color: #a8d672;
+}
+#email-square{
+    background-color: #14201830;
+    padding: 16px;
+    border-radius: 8px;
+}
+#discord-box{
+    background-color: plum;
+}
+#discord-square{
+    background-color: #14201830;
+    padding: 16px;
+    border-radius: 8px;
+}
+.message{
+    margin-left: 128px;
+    background-color: #192B24;
+    margin-right: 128px;
+    border-radius: 32px;
+    padding: 32px;
+    margin-bottom: 64px;
+}
+.message form input{
+    width: 100%;
+    height: 32px;
+    margin-bottom: 16px;
+    background-color: #0000;
+    color: white;
+}
+.message form div{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+#message-top{
+    color: #ffb893;
+    font-family: "roboto mono";
+}
+#message-send{
+    width: 30%;
+    color: black;
+    background-color: #a8d672;
+}
+footer{
+    background-color: #192B24;
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+#footerIcons{
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+}
+footer img{
+    height: 100%;
+}
